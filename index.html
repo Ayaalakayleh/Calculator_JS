@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>  
+        <div class="box">
+
+            <div class="container">
+                <div class="last-result"></div> 
+                <div class="display-result"></div>
+            </div>
+            <div class="numbers">
+                <table class="mytable" >      
+                    <tr>
+                        <td data-number="C" class="EL clear-button">C</td>
+                        <td data-number="$" class="EL log-button ">&uarr;</td>
+                        <td data-number="%" class="EL operator-button" >%</td>
+                        <td data-number="÷" class="EL sym operator-button" > ÷ </td>
+                    </tr>   
+                    <tr>
+                        <td data-number="7" class="EL number-button">7</td>
+                        <td data-number="8" class="EL number-button">8</td>
+                        <td data-number="9" class="EL number-button">9</td>
+                        <td data-number="*" class="EL sym operator-button" > × </td>
+                    </tr>
+                    <tr>
+                        <td data-number="4" class="EL number-button">4</td>
+                        <td data-number="5" class="EL number-button">5</td>
+                        <td data-number="6" class="EL number-button">6</td>
+                        <td data-number="-" class="EL sym operator-button"> - </td>
+                    </tr>
+                    <tr>
+                        <td data-number="1" class="EL number-button">1</td>
+                        <td data-number="2" class="EL number-button">2</td>
+                        <td data-number="3" class="EL number-button">3</td>
+                        <td data-number="+" class="EL sym operator-button"> + </td>
+                    </tr>
+                    <tr>
+                        <td data-number="0" class="EL number-button zero" colspan="2">0</td>
+                        <td data-number="/" class="EL operator-button">/</td>
+                        <td data-number="=" class="EL sym equal-button"> = </td>
+                    </tr>
+                </table>
+            </div>
+          
+        </div>
+        <select class="display-Last-result"></select>
+        
+        <script src="js/script.js"></script>
+    </body>
+</html>
